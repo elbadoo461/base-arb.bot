@@ -1,0 +1,18 @@
+{
+  "name": "base-arb-bot",
+  "version": "1.0.0",
+  "description": "Production-grade Base chain arbitrage/sweeper bot — Uniswap v3 × Aerodrome",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "health": "node health-server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2"
+  },
+  "license": "MIT"
+}
